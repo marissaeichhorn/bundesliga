@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- vowel mutation -->
+    <meta charset="UTF-8" />
+
+    <!-- insert header -->
+    <div includeHtml="elements/header.html"></div>
+
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/forall.css">
+
+    <!-- script to insert *.html -->
+    <script src="js/include-html.js"></script>
+</head>
+
+<body>
+
+    <!-- insert navbar -->
+    <div includeHtml="elements/navbar-ger.html"></div>
+
+    <!-- picture -->
+    <div class="picture">
+        <div class="centered"><h1>Kontakt</h1></div>
+    </div>
+
+    <div class="container">
+
+        <!-- google maps -->
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Auenweg%2021%2C%20Esslingen%2C%20Germany+(KSV%20Esslingen%201894%20e.V.)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+
+        <!-- contact -->
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Auenweg 21</h5>
+                        <p>73733 Esslingen, GER</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-user"></i>
+                    <span>
+                        <h5>Carsten Finkbeiner</h5>
+                        <p>finkbeiner@kms-steuern.de</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Geschäftsstelle</h5>
+                        <p>geschaeftsstelle@ksv-esslingen.de</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer her because other links at every page -->
+    <footer class="text-center text-white" style="background-color: #006fb4;" >
+        <div class="text-center text-light p-3"> <!-- style="background-color: rgba(0, 0, 0, 0.2);" -->
+
+            <!-- insert footer part 1 -->
+            <div includeHtml="elements/footer-part-1.html"></div>
+
+            <!-- footer language options-->
+            <section class="mb-3">
+                <a href="contact-engl.html"><img src="img/english.jpg" height="20"></a>
+                <a href="contact-ger.html"><img src="img/german.jpg" height="20"></a>
+            </section>
+
+            <!-- insert footer part 2 -->
+            <div includeHtml="elements/footer-part-2.html"></div>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- enable option to insert *.html -->
+    <script>
+        includeHtml();
+    </script>
+</body>
+</html>

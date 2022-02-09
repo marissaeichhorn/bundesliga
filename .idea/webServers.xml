@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="94c0ceb4-82f2-4f59-aa24-d1028a655932" name="Host" url="http://hosting130578.a2e16.netcup.net">
+        <fileTransfer accessType="FTPS" host="hosting130578.a2e16.netcup.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

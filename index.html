@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- insert header -->
+    <div includeHtml="elements/header.html"></div>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/banner.css">
+
+    <!-- script to insert *.html -->
+    <script src="js/include-html.js"></script>
+
+    <style>
+
+        footer {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- insert navbar -->
+    <div includeHtml="elements/navbar-ger.html"></div>
+
+    <!-- picture -->
+    <div class="picture">
+        <div class="centered"><h1>Baustelle</h1></div>
+    </div>
+
+    <!-- insert sponsors -->
+    <div includeHtml="elements/sponsors.html"></div>
+
+    <!-- footer her because other links at every page -->
+    <footer class="text-center text-white" style="background-color: #006fb4;" >
+        <div class="text-center text-light p-3"> <!-- style="background-color: rgba(0, 0, 0, 0.2);" -->
+            <section class="mb-3">
+
+                <!-- Instagram -->
+                <a      class="btn btn-link btn-floating btn-lg text-light m-1"
+                        href="https://www.instagram.com/ksv_esslingen_bundesliga/"
+                        role="button"
+                        data-mdb-ripple-color="light"
+                ><i class="fa fa-instagram"></i
+                ></a>
+            </section>
+
+            <!-- language -->
+            <section class="mb-3">
+                <a href="index-engl.html"><img src="img/english.jpg" height="20"></a>
+                <a href="index.html"><img src="img/german.jpg" height="20"></a>
+            </section>
+
+            <a><i class="fa fa-copyright"></i>2022 Copyright:</a><a class="text-light" href="https://www.ksv-esslingen.de/"> KSV Esslingen 1894 e.V. </a>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        includeHtml();
+    </script>
+</body>
+</html>

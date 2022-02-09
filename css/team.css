@@ -1,0 +1,27 @@
+/* picture */
+.picture {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/banner-team-2.jpg);
+}
+
+.card {
+    margin-bottom: 25px;
+}
+
+.text-center {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* position in team */
+.badge span {
+    background-color: #006fb4;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center
+}
